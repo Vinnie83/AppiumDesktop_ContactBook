@@ -1,0 +1,14 @@
+
+inputFieldApi = "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"Connect to ContactBook\"][@AutomationId=\"FormConnect\"]/Edit[@Name=\"ContactBook API:\"][@AutomationId=\"textBoxApiUrl\"]"
+
+connectButton = "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"Connect to ContactBook\"][@AutomationId=\"FormConnect\"]/Button[@Name=\"Connect\"][@AutomationId=\"buttonConnect\"]"
+
+inputtFieldNewWindow = "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"Search Contacts\"][@AutomationId=\"SearchContactsForm\"]/Edit[@AutomationId=\"textBoxSearch\"]"
+
+searchButtonNewWindow = "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"Search Contacts\"][@AutomationId=\"SearchContactsForm\"]/Button[@Name=\"Search\"][@AutomationId=\"buttonSearch\"]"
+
+foundContactCell = "dataGridViewContacts"
+
+firstName = "/DataItem[@Name=\"FirstName Row 0, Not sorted.\"]"
+
+lastName = "/DataItem[@Name=\"LastName Row 0, Not sorted.\"]"
